@@ -1,1 +1,0 @@
-areapintada = float(input("Digite a área a ser pintada em m²: "))
