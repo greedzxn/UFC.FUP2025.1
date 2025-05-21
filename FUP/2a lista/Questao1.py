@@ -29,11 +29,10 @@ else:
     cheiro =input ("A carne possui cheiro agradável? ").lower()
     if cheiro == "sim":
         estrelas += 1
-
+    #Resultados
         if estrelas > 3:
          print(f"A carne recebeu {estrelas} estrelas, e portanto, passou no teste")
         else:
          print(f"A carne recebeu {estrelas} estrelas e portanto, não passou no teste")
-#Resultados
 
 
