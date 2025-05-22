@@ -8,10 +8,10 @@ n2 = float(input("Qual o foi número que o professor pensou? "))
 if n1 == n2:
     print("O primeiro aluno ganhou!")
 
-elif  n1 < n2 and chute == "menor":
+elif  n1 < n2 and chute == "maior":
     print("O primeiro aluno ganhou!")
 
-elif  n1 > n2 and chute == "maior":
+elif  n1 > n2 and chute == "menor":
     print("O primeiro aluno ganhou!")
 
 #Possibilidades que o segundo aluno ganha:
