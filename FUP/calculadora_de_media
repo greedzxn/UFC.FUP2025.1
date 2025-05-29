@@ -1,18 +1,27 @@
+aprovados = 0
+reprovados = 0
+AF = 0
+
 i = 0
 while i < 10:
     nota = float(input('Qual a primeira nota do aluno? '))
     nota2 = float(input('Qual a segunda nota do aluno? '))
-    
+
     if nota <= 10 and nota2 <=10:
         media = (nota+nota2)/2
 
         if media <= 4:
-            print(f'Reprovado por média: {media}')
+            aprovados += 1
 
         elif media >= 4 and media < 7:
-            print(f'AF por média: {media}')
+            AF += 1
 
         elif media >= 7:
-            print(f'Aprovado por média: {media}')
-    
+            aprovados += 1
+
     i += 1
+
+if i == 10:
+    print(f' A quantidade de alunos reprovados foram: {reprovados}')
+    print(f' A quantidade de alunos de AF foram: {AF}')
+    print(f' A quantidade de alunos aprovados foram: {aprovados}')
