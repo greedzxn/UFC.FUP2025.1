@@ -9,7 +9,7 @@ def traduzir_base(base):
     elif base == "G":
         return "C"
     else:
-        return "?"  # Base inválida
+        return "Base inválida!"
 
 # Receber as bases do usuário
 base1 = input("Insira a primeira base nitrogenada: ").upper()
